@@ -1,3 +1,6 @@
+import numpy as np
+import sounddevice as sd
+
 # Settings
 samplerate = 44100
 volume = 0.0005  # very very low
