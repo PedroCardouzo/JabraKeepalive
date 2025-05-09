@@ -15,6 +15,8 @@ first, install portaudio
 `brew install portaudio`
 then, run the same install command as the windows version
 `pip install sounddevice numpy`
+if you already had sounddevice installed before portaudio, you might need to reinstall it
+`pip install --force-reinstall --no-cache-dir sounddevice`
 
 ## Run
 `python jabra-keepalive.py`
